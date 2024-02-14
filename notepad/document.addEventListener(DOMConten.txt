@@ -1,0 +1,65 @@
+document.addEventListener("DOMContentLoaded", function () {
+  
+    const locationInput = document.getElementById("locationInput");
+    const searchButton = document.getElementById("searchButton");
+    
+  
+    var defaultCity = "Zhezkazgan";
+    fetchWeatherData(defaultCity);
+
+    function searchweather() {
+        const city = locationInput.value.trim();
+
+        if (city !== "") {
+            fetchWeatherData(city);
+        } else {
+            alert("Please enter a city name.");
+        }
+    }
+
+  
+    searchButton.addEventListener("click", searchweather ) {
+  
+    const city = locationInput.value.trim();
+
+  
+        if (city !== "") {ss
+            fetchWeatherData(city);
+        } else {
+            alert("Please enter a city name.");
+        }
+    });
+
+    locationInput.addEventListener
+
+
+
+
+
+
+
+
+This one is original.
+document.addEventListener("DOMContentLoaded", function () {
+  
+    const locationInput = document.getElementById("locationInput");
+    const searchButton = document.getElementById("searchButton");
+    
+  
+    var defaultCity = "Zhezkazgan";
+    fetchWeatherData(defaultCity);
+
+  
+    searchButton.addEventListener("click", function () {
+  
+    const city = locationInput.value.trim();
+
+  
+        if (city !== "") {ss
+            fetchWeatherData(city);
+        } else {
+            alert("Please enter a city name.");
+        }
+    });
+
+    locationInput.addEventListener
